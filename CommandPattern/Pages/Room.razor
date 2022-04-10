@@ -1,0 +1,18 @@
+﻿@inherits RoomBase
+
+<div class="light">
+  <div class = "shade @(LightOn ? "on" : "off")"></div>
+  <div class = "leg"></div>
+  <div class = "foot"></div>
+</div>
+
+<div class="row pt-2">
+
+    <div class="btn-group">
+      <button @onclick="@On">On</button> 
+      <button @onclick="@Off">Off</button>
+      <button>Deem up</button>
+      <button>Deem Down</button>
+    </div>
+
+</div>
